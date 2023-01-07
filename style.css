@@ -1,0 +1,92 @@
+ .container{
+    margin:0;
+    padding:0;
+    font-family:'inter',sans-serif;
+ }
+ 
+ .header{
+    display:flex;
+    color:white;
+    background: #000000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position:sticky;
+    top:0;
+}
+
+.header .logo h1{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+}
+.header .items{
+    display: flex;
+    align-items: centre;
+}
+
+.items .item{
+    padding:0px 25px;
+}
+.items .item a{
+    text-decoration:none;
+    color:white;
+}
+
+.flex-section{
+    display:flex;
+    justify-content:space-between;
+    margin:53px 0px;
+}
+.flex-section .right{
+    width:50%;
+}
+.flex-section .left{
+    width:50%;
+    padding:0px 38px;
+}
+
+.flex-section .right img{
+width:90%;
+}
+ .left h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 77px;
+}
+
+.left p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+}
+.left button{
+    margin-top: 35px;
+    background: black;
+    font-size: 16px;
+    color: white;
+    padding: 13px 49px;
+    border: 1px solid black;
+}
+ .flex-image-section{
+    display:flex;
+    flex-direction: column;
+ }
+
+ .image-container{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content:space-evenly;
+    gap:70px;
+ }
+
+ .image-container .images img{
+    width:375px;
+ }
+ .heading h1{
+    font-weight: 400;
+    line-height: 77px;
+    font-size: 40px;
+    padding-left: 35px;
+    }
+
